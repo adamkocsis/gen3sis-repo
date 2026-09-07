@@ -6,5 +6,7 @@ show_sidebar: false
 
 # Index
 
-Landing page
+Landing page - this is built from the ELDA website. (<earthlifedigital.github.io>)
+
+Go to </example/>
 

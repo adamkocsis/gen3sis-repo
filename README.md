@@ -5,6 +5,8 @@ Sorry - I cannot create a new repo in the org :D Built at <adamkocsis.github.io/
 Chronosphere integration:
 
 ``` r
+# Trial script for accessing gen3sis simulation input through the chronosphere.
+
 library(chronosphere) # install from CRAN
 library(gen3sis2) # current main 
 library(spac3tools) # from current decompress-fix branch!
@@ -37,7 +39,8 @@ spac3tools::decompress_space(dir_input=spacePath, dir_output=spacePath)
 ## spacePathWithResistance <- spac3tools::decompress_space(spacePath)
 ## # which you would then use as input in the code below to start the simulation.
 ## # This would be a single space-resistance combination, so 
-## spacePathWithResistancesList <- spac3tools::decompress_space(spacePath,  cost_function_index=<vector>)
+## spacePathWithResistancesList <- spac3tools::decompress_space(spacePath,
+## 		cost_function_index=<vector>)
 ## # returns a list, you could get spacePathWithResistancesList[[1]], as a specific
 ## # simulation input.
 
@@ -45,5 +48,4 @@ spac3tools::decompress_space(dir_input=spacePath, dir_output=spacePath)
 sim2 <- gen3sis2::run_simulation(config = configObject,
     space = file.path(spacePath, "decompressed"),
 	output_directory = tempdir(), call_observer = 1)
-
 ```
