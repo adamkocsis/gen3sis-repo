@@ -3,9 +3,9 @@
 Sorry - I cannot create a new repo in the org :D Built at <https://adamkocsis.github.io/gen3sis-repo>
 
 This can be an easy v1 of the repo. 
-- Publish data on Zenodo, make *gen3sis* organization, collect links.
-- Put links in a csv file, make the available on the website.
-- Collect links also in the chronosphere, make them accessible R
+- Publish data on Zenodo, make *gen3sis* organization, collect links. Currently these are on the toy repo, the Zenodo sandbox (<https://sandbox.zenodo.org/records/598246>).
+- Collect links and files in a csv file, make the data available on the website <https://adamkocsis.github.io/gen3sis-repo/example>.
+- Collect links also in the chronosphere, make them accessible R (Adam)
 - Example codes are also provided on the site.
 
 The v2 version can be a full-stack web app instead of the static jekyll site, providing
