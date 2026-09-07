@@ -1,12 +1,11 @@
 # Site Settings
 lang: en
-title: Earth-Life Digital Alliance 
-tagline: Community for developing an interconnected data infrastructure
+title: Genesis repo 
 email: your-email@domain.com
 description: >
-  Towards the next generation of data service for understanding the coevolution Earth and Life
+  Woho
 baseurl: ""
-url: "https://earthlifedigital.github.io"
+url: "gen3sis-repo"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes

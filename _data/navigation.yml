@@ -1,24 +1,2 @@
-- name: About
-  link: /#
-  dropdown: 
-    - name: Background 
-      link: /about/background/
-    - name: The Alliance 
-      link: /about/alliance/
-- name: Catalogue 
-  link: /catalogue/
-- name: Other resources
-  link: /#
-  dropdown: 
-    # - name: Principles 
-    #   link: /hub/principles/
-    - name: Data Projects and Working Groups
-      link: /groups/
-    # - name: Papers and studies 
-    #   link: /hub/studies/
-    # - name: Standards and Aggregators
-    #   link: /hub/standards/
-- name: Projects 
-  link: /projects/
-- name: Contribute 
-  link: /contribute 
+- name: Example 
+  link: /example/
