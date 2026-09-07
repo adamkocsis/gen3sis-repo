@@ -5,14 +5,17 @@ Sorry - I cannot create a new repo in the org :D Built at <https://adamkocsis.gi
 This can be an easy v1 of the repo. 
 - Publish data on Zenodo, make *gen3sis* organization, collect links. Currently these are on the toy repo, the Zenodo sandbox (<https://sandbox.zenodo.org/records/598246>).
 - Collect links and files in a csv file, make the data available on the website <https://adamkocsis.github.io/gen3sis-repo/example>.
-- Collect links also in the chronosphere, make them accessible R (Adam)
-- Example codes are also provided on the site.
+- Collect links also in the [chronosphere](https://chronosphere.info/r_client/), make them accessible R (Adam - don't look at the rest of this website, ad bits are all work in progress...)
+- Example chronosphere codes are also provided on the gen3sis site.
 
 The v2 version can be a full-stack web app instead of the static jekyll site, providing
 an API and more advanced searching capabailities. The rest of the pipeline remains the same.
 
+- A next version of the chronosphere should make it possible to have recursive fetching, which means that we can define a simulation-level output, which is composed automatically from the space-config pair. 
+- It can be a possibility to include `decompress=FALSE` in the fetch call, although this might not be the most fail-safe practice.
+- I have scheduled functions to help with the local organization of the files, and might also reorganize those a bit...
 
-Chronosphere integration:
+Example chronosphere integration:
 
 ``` r
 # Trial script for accessing gen3sis simulation input through the chronosphere.
