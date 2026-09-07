@@ -7,6 +7,11 @@ Chronosphere integration:
 ``` r
 # Trial script for accessing gen3sis simulation input through the chronosphere.
 
+
+# install.packages("chronosphere")
+# devtools::install_github("gen3sis2/gen3sis2_R-package@main")
+# devtools::install_github("gen3sis2/spac3tools_R-package@decompress-fix")
+
 library(chronosphere) # install from CRAN
 library(gen3sis2) # current main 
 library(spac3tools) # from current decompress-fix branch!
