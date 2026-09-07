@@ -9,11 +9,11 @@ This can be an easy v1 of the repo.
 - Example chronosphere codes are also provided on the gen3sis site.
 
 The v2 version can be a full-stack web app instead of the static jekyll site, providing
-an API and more advanced searching capabailities. The rest of the pipeline remains the same.
+an API and more advanced searching capabilities. The rest of the pipeline remains the same.
 
-- A next version of the chronosphere should make it possible to have recursive fetching, which means that we can define a simulation-level output, which is composed automatically from the space-config pair. 
+- A next version of the chronosphere should make it possible to have recursive fetching, which means that we can define a simulation-level input, which is composed automatically from the space-config pair. 
 - It can be a possibility to include `decompress=FALSE` in the fetch call, although this might not be the most fail-safe practice.
-- I have scheduled functions to help with the local organization of the files, and might also reorganize those a bit...
+- I have scheduled functions to help with the local organization of the files (e.g. saving, moving, detting defaults, etc), and might also reorganize those a bit...
 
 Example chronosphere integration:
 
