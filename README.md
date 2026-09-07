@@ -1,6 +1,6 @@
 # Repo concent for gen3sis
 
-Sorry - I cannot create a new repo in the org :D Built at <https:://adamkocsis.github.io/gen3sis-repo>
+Sorry - I cannot create a new repo in the org :D Built at <https://adamkocsis.github.io/gen3sis-repo>
 
 Chronosphere integration:
 
